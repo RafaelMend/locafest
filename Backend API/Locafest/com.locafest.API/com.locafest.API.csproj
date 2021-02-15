@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0-preview.1.21102.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1-beta1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\com.locafest.Domain\com.locafest.Domain.csproj" />
+    <ProjectReference Include="..\com.locafest.Infra.CrossCutting\com.locafest.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\com.locafest.Service\com.locafest.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

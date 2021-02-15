@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "AZTFHfvuSnOY4WWfjiX2Uxox+I7C1ccI9IT6w707kAmt/Te/gJSeVaoK6Wb7xJr7toKH1KTWZe8E2EP3pFVOGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\137303\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
+    "C:\\Users\\137303\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.1\\fluentvalidation.aspnetcore.9.5.1.nupkg.sha512",
+    "C:\\Users\\137303\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.1\\fluentvalidation.dependencyinjectionextensions.9.5.1.nupkg.sha512",
+    "C:\\Users\\137303\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
+    "C:\\Users\\137303\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

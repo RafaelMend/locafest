@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{49AF99DC-AB61-4072-886C-724BA156BA71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C380C12F-B9DA-4A66-98FC-C80E48EEDA02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{BE986DC1-13DC-4577-A0BD-FBDC890FE6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{AE6DA4A9-F83A-4DA5-B0E2-A34B2A90AF94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{EF1D421C-A7BB-4683-9E54-EA8A140F09C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{D6CA495C-B4FE-4A09-8CAD-156CF4CD66D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.locafest.API", "com.locafest.API\com.locafest.API.csproj", "{13059F5A-AE08-498D-869B-08B981296808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{1B5C0323-0D3A-402E-BF89-62BF4366723E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.locafest.Tests", "com.locafest.Tests\com.locafest.Tests.csproj", "{A85E94F7-76D3-49B4-ACB9-27424CDF668F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.locafest.Domain", "com.locafest.Domain\com.locafest.Domain.csproj", "{662CE4CA-AAA0-49C5-90B2-44B4DFB29197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.locafest.Service", "com.locafest.Service\com.locafest.Service.csproj", "{67346F24-1454-49E0-BD43-483CDE712705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.locafest.Infra.Data", "com.locafest.Infra.Data\com.locafest.Infra.Data.csproj", "{8FAFA461-81CB-476C-8BAD-750DEA046912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.locafest.Infra.CrossCutting", "com.locafest.Infra.CrossCutting\com.locafest.Infra.CrossCutting.csproj", "{FD01C187-8EBD-4B87-BF61-7F673578E5D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13059F5A-AE08-498D-869B-08B981296808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13059F5A-AE08-498D-869B-08B981296808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13059F5A-AE08-498D-869B-08B981296808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13059F5A-AE08-498D-869B-08B981296808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85E94F7-76D3-49B4-ACB9-27424CDF668F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85E94F7-76D3-49B4-ACB9-27424CDF668F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85E94F7-76D3-49B4-ACB9-27424CDF668F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85E94F7-76D3-49B4-ACB9-27424CDF668F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662CE4CA-AAA0-49C5-90B2-44B4DFB29197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662CE4CA-AAA0-49C5-90B2-44B4DFB29197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662CE4CA-AAA0-49C5-90B2-44B4DFB29197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662CE4CA-AAA0-49C5-90B2-44B4DFB29197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67346F24-1454-49E0-BD43-483CDE712705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67346F24-1454-49E0-BD43-483CDE712705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67346F24-1454-49E0-BD43-483CDE712705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67346F24-1454-49E0-BD43-483CDE712705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAFA461-81CB-476C-8BAD-750DEA046912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAFA461-81CB-476C-8BAD-750DEA046912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAFA461-81CB-476C-8BAD-750DEA046912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAFA461-81CB-476C-8BAD-750DEA046912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD01C187-8EBD-4B87-BF61-7F673578E5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD01C187-8EBD-4B87-BF61-7F673578E5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD01C187-8EBD-4B87-BF61-7F673578E5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD01C187-8EBD-4B87-BF61-7F673578E5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF1D421C-A7BB-4683-9E54-EA8A140F09C2} = {AE6DA4A9-F83A-4DA5-B0E2-A34B2A90AF94}
+		{D6CA495C-B4FE-4A09-8CAD-156CF4CD66D1} = {AE6DA4A9-F83A-4DA5-B0E2-A34B2A90AF94}
+		{13059F5A-AE08-498D-869B-08B981296808} = {49AF99DC-AB61-4072-886C-724BA156BA71}
+		{A85E94F7-76D3-49B4-ACB9-27424CDF668F} = {1B5C0323-0D3A-402E-BF89-62BF4366723E}
+		{662CE4CA-AAA0-49C5-90B2-44B4DFB29197} = {C380C12F-B9DA-4A66-98FC-C80E48EEDA02}
+		{67346F24-1454-49E0-BD43-483CDE712705} = {BE986DC1-13DC-4577-A0BD-FBDC890FE6FB}
+		{8FAFA461-81CB-476C-8BAD-750DEA046912} = {EF1D421C-A7BB-4683-9E54-EA8A140F09C2}
+		{FD01C187-8EBD-4B87-BF61-7F673578E5D6} = {D6CA495C-B4FE-4A09-8CAD-156CF4CD66D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E7ABC9F-1B46-4EFA-BBC4-9834A8EE9750}
+	EndGlobalSection
+EndGlobal

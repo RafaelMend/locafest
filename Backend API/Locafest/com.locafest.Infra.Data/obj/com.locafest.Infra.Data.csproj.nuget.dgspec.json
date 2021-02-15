@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj",
+        "projectName": "com.locafest.Domain",
+        "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj",
+        "packagesPath": "C:\\Users\\137303\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\137303\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://localiza.pkgs.visualstudio.com/_packaging/LocalizaAtivos%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj",
+        "projectName": "com.locafest.Infra.Data",
+        "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\137303\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\137303\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://localiza.pkgs.visualstudio.com/_packaging/LocalizaAtivos%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

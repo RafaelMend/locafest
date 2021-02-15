@@ -1,0 +1,16 @@
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.deps.json
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.pdb
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Domain.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Infra.Data.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Service.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Domain.pdb
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Infra.Data.pdb
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\bin\Debug\netcoreapp3.1\com.locafest.Service.pdb
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\obj\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.csprojAssemblyReference.cache
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\obj\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\obj\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.AssemblyInfo.cs
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\obj\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\obj\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.csproj.CopyComplete
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\obj\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.CrossCutting\obj\Debug\netcoreapp3.1\com.locafest.Infra.CrossCutting.pdb

@@ -1,0 +1,12 @@
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\bin\Debug\netcoreapp3.1\com.locafest.Infra.Data.deps.json
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\bin\Debug\netcoreapp3.1\com.locafest.Infra.Data.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\bin\Debug\netcoreapp3.1\com.locafest.Infra.Data.pdb
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\bin\Debug\netcoreapp3.1\com.locafest.Domain.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\bin\Debug\netcoreapp3.1\com.locafest.Domain.pdb
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\obj\Debug\netcoreapp3.1\com.locafest.Infra.Data.csprojAssemblyReference.cache
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\obj\Debug\netcoreapp3.1\com.locafest.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\obj\Debug\netcoreapp3.1\com.locafest.Infra.Data.AssemblyInfo.cs
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\obj\Debug\netcoreapp3.1\com.locafest.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\obj\Debug\netcoreapp3.1\com.locafest.Infra.Data.csproj.CopyComplete
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\obj\Debug\netcoreapp3.1\com.locafest.Infra.Data.dll
+C:\Users\137303\source\repos\Locafest\com.locafest.Infra.Data\obj\Debug\netcoreapp3.1\com.locafest.Infra.Data.pdb
