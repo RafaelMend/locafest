@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TlsdC7G0gcVDwDtfCb9YWda/93VL23/OvbTh/AW2rO63znfiaXHAYsUZPLkh3GsMcuF+TOhqge5BpVT48jBdvg==",
+  "dgSpecHash": "8eURlReXp+zjvwVHBzJYGMUBL2YYTybDEVS8JFRMUlJh7A8tpFYFAn9aX+LK1IteEbj0hvrjNFXyXGbTvlINQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.API\\com.locafest.API.csproj",
+  "projectFilePath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.API\\com.locafest.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\137303\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\137303\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",

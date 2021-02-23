@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o2aKXV16ad14uK2oEpk1mncDLUkKjeJ0BE6zNV1MqM+UW9gu5jF7PxfkRKOmsIajLMy13zoGSeEkmuPCUuMRvA==",
+  "dgSpecHash": "IuQf1PRdefqW6/1cdB2dY4KTEFN4GIvO5fvfOWlD1FeeWd7C2Q+Nrqty2PWKp33nEC4yOJJ5bRoc5fNyj3s4Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Tests\\com.locafest.Tests.csproj",
+  "projectFilePath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Tests\\com.locafest.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\137303\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\137303\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

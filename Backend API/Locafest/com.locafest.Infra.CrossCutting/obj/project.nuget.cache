@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5/R7KvUHUxBVaCaYRbVjE1Un/tWXkRKvXzT1dYBPWsPKYni48P4jAacu7Ta/o+d2a0Qjegg4+5T0BTYQ0Th/Lw==",
+  "dgSpecHash": "PtYf1z4tAf5USgCxcJCBcl7mRSt8utlHB1NRheh9xarpqY1Ajf4pLkFbUrCi5Rm5XPWJFPnfMCQpTFKEOI9Qgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\137303\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\137303\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",

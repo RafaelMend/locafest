@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EDTIlAdvqwVW823699SeZRoMju6zt8o8Zg4G9tXeOu1P8EQwN1+YLMtKygsnXWQ3pEXy4fZEN8rp25MYuX8dBA==",
+  "dgSpecHash": "+azRZ6XwUEIgfsm4GFLkHV7psGhhDOWCarOj39hrTWOXxfJwr3epWemZg3zgYM5FvDY9StH4pIQMLjeKIldpLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj",
+  "projectFilePath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\137303\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\137303\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.1\\fluentvalidation.aspnetcore.9.5.1.nupkg.sha512",

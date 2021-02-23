@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.API\\com.locafest.API.csproj": {}
+    "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.API\\com.locafest.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.API\\com.locafest.API.csproj": {
+    "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.API\\com.locafest.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.API\\com.locafest.API.csproj",
+        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.API\\com.locafest.API.csproj",
         "projectName": "com.locafest.API",
-        "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.API\\com.locafest.API.csproj",
+        "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.API\\com.locafest.API.csproj",
         "packagesPath": "C:\\Users\\137303\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.API\\obj\\",
+        "outputPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\137303\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
               },
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj"
               },
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
+    "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj",
         "projectName": "com.locafest.Domain",
-        "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj",
+        "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj",
         "packagesPath": "C:\\Users\\137303\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\obj\\",
+        "outputPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\137303\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj": {
+    "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj",
         "projectName": "com.locafest.Infra.CrossCutting",
-        "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.CrossCutting\\com.locafest.Infra.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\137303\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\137303\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,14 +178,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
               },
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj"
               },
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj"
               }
             }
           }
@@ -234,14 +234,14 @@
         }
       }
     },
-    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj": {
+    "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj",
         "projectName": "com.locafest.Infra.Data",
-        "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.Data\\com.locafest.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\137303\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\137303\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -258,8 +258,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
               }
             }
           }
@@ -304,14 +304,14 @@
         }
       }
     },
-    "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj": {
+    "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj",
+        "projectUniqueName": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj",
         "projectName": "com.locafest.Service",
-        "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj",
+        "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\com.locafest.Service.csproj",
         "packagesPath": "C:\\Users\\137303\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Service\\obj\\",
+        "outputPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\137303\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -328,8 +328,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
-                "projectPath": "C:\\Users\\137303\\source\\repos\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
+              "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj": {
+                "projectPath": "C:\\Users\\137303\\source\\repos\\GitHub Repository\\locafest\\Backend API\\Locafest\\com.locafest.Domain\\com.locafest.Domain.csproj"
               }
             }
           }
