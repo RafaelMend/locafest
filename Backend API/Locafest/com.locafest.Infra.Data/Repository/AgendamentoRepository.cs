@@ -30,6 +30,7 @@ namespace com.locafest.Infra.Data.Repository
                                   ,valor_hora as ValorHora
                                   ,quantidade_horas as QuantidadeHoras
                                   ,valor_final as ValorFinal
+                                  ,local as Local
                               FROM dbo.Agendamento
                               WHERE id = @id ";
             #endregion
@@ -49,7 +50,8 @@ namespace com.locafest.Infra.Data.Repository
                                        ,data_devolucao
                                        ,valor_hora
                                        ,quantidade_horas
-                                       ,valor_final)
+                                       ,valor_final
+                                       ,local)
                                  VALUES
                                        (@Id
                                        ,@VeiculoId
@@ -58,7 +60,8 @@ namespace com.locafest.Infra.Data.Repository
                                        ,@DataDevolucao
                                        ,@ValorHora
                                        ,@QuantidadeHoras
-                                       ,@ValorFinal)
+                                       ,@ValorFinal
+                                       ,@Local)
                 ";
             return con.Value.Execute(sql, agendamento);
         }

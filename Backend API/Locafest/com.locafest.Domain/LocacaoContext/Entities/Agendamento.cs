@@ -10,6 +10,7 @@ namespace com.locafest.Domain.LocacaoContext.Entities
     {
         public DateTime DataRetirada { get; set; }
         public DateTime DataDevolucao { get; set; }
+        public string Local { get; set; }
         public decimal ValorHora { get; set; }
         public decimal QuantidadeHoras { get; set; }
         public decimal ValorFinal { get; set; }
