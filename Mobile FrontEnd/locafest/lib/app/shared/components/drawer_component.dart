@@ -1,6 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:locafest/app/home/home_page.dart';
+import 'package:locafest/app/reserva/nova_reserva_page.dart';
 import 'package:locafest/app/utils/hex_color.dart';
+import 'package:locafest/app/utils/nav.dart';
 
 class DrawerComponent extends StatelessWidget {
   @override
@@ -27,6 +30,16 @@ class DrawerComponent extends StatelessWidget {
     return ListView(children: <Widget>[
       ListTile(
         onTap: () {
+          _clickHome(context);
+        },
+        title: Text("Home"),
+        leading: Icon(
+          Icons.account_balance,
+          color: Colors.black,
+        ),
+      ),
+      ListTile(
+        onTap: () {
           _novaReserva(context);
         },
         title: Text("Nova Reserva"),
@@ -48,7 +61,13 @@ class DrawerComponent extends StatelessWidget {
     ]);
   }
 
-  _novaReserva(BuildContext context) {}
+  _novaReserva(BuildContext context) {
+    push(context, NovaReservaPage());
+  }
 
   _minhasReserva(BuildContext context) {}
+
+  _clickHome(BuildContext context) {
+    push(context, HomePage());
+  }
 }
