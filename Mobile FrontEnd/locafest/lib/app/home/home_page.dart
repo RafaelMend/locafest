@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:locafest/app/reserva/nova_reserva_page.dart';
 import 'package:locafest/app/utils/hex_color.dart';
-import 'package:carousel_slider/carousel_slider.dart';
-
-import 'drawer_component.dart';
+import 'package:locafest/app/utils/nav.dart';
+import '../shared/components/drawer_component.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -29,31 +29,91 @@ class _HomePageState extends State<HomePage> {
   }
 
   _body(BuildContext context) {
+    double c_width = MediaQuery.of(context).size.width * 0.9;
+    double c_height = MediaQuery.of(context).size.height * 0.9;
+
     return Form(
       key: _formKey,
-      child: Center(
-          child: SizedBox.fromSize(
-            size: Size(150, 150), // button width and height
-            child: ClipOval(
-              child: Material(
-                color: Colors.amberAccent, // button color
-                child: InkWell(
-                  splashColor: Colors.green, // splash color
-                  onTap: () {}, // button pressed
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Icon(Icons.car_rental, size: 50,), // icon
-                      Text("Nova Reserva"), // text
-                    ],
+      child: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: c_width * 0.79,
+              height: c_height / 4,
+              child: Card(
+                child: Material(
+                  color: Colors.amberAccent, // button color
+                  child: InkWell(
+                    splashColor: Colors.green, // splash color
+                    onTap: () {
+                      _novaReserva();
+                    }, // button pressed
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Icon(
+                          Icons.car_rental,
+                          size: c_width * 0.2,
+                        ), // icon
+                        Text(
+                          "Nova Reserva",
+                          style: TextStyle(
+                            fontSize:
+                                c_width * 0.1, // insert your font size here
+                          ),
+                        ), // text
+                      ],
+                    ),
+                  ),
                 ),
               ),
             ),
           ),
-        ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: c_width * 0.79,
+              height: c_height / 4,
+              child: Card(
+                child: Material(
+                  color: Colors.amberAccent, // button color
+                  child: InkWell(
+                    splashColor: Colors.green, // splash color
+                    onTap: () {
+                      _minhasReservas();
+                    }, // button pressed
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Icon(
+                          Icons.receipt_long,
+                          size: c_width * 0.2,
+                        ), // icon
+                        Text(
+                          "Minhas Reservas",
+                          style: TextStyle(
+                            fontSize:
+                                c_width * 0.1, // insert your font size here
+                          ),
+                        ), // text
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
 
   _buildActions() {}
+
+  _minhasReservas() {}
+
+  _novaReserva() {
+    push(context, NovaReservaPage());
+  }
 }

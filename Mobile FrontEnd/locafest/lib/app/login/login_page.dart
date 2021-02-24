@@ -35,8 +35,9 @@ class _LoginPageState extends State<LoginPage> {
     return Form(
       key: _formKey,
         child: Container(
-          decoration: new BoxDecoration(
-            gradient: new LinearGradient(colors: [gradientStart, gradientCenter, gradientEnd],
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [gradientStart, gradientCenter, gradientEnd],
               begin: const FractionalOffset(0.0, 0.0),
               end: const FractionalOffset(0.0, 0.9),
             ),
