@@ -1,17 +1,24 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:locafest/app/reserva/minhas_reservas_page.dart';
 import 'package:locafest/app/reserva/nova_reserva_page.dart';
-import 'package:locafest/app/utils/hex_color.dart';
-import 'package:locafest/app/utils/nav.dart';
+import 'package:locafest/app/shared/entities/usuario.dart';
+import 'package:locafest/app/shared/utils/hex_color.dart';
+import 'package:locafest/app/shared/utils/nav.dart';
 import '../shared/components/drawer_component.dart';
 
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
+
+  final Usuario usuario;
+  HomePage(this.usuario);
 }
 
 class _HomePageState extends State<HomePage> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  Usuario get usuario => widget.usuario;
 
   void initState() {}
 
@@ -24,7 +31,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: HexColor("#9C27B0"),
       ),
       body: _body(context),
-      drawer: DrawerComponent(),
+      drawer: DrawerComponent(usuario),
     );
   }
 
@@ -111,9 +118,11 @@ class _HomePageState extends State<HomePage> {
 
   _buildActions() {}
 
-  _minhasReservas() {}
+  _minhasReservas() {
+    push(context, MinhasReservasPage(usuario));
+  }
 
   _novaReserva() {
-    push(context, NovaReservaPage());
+    push(context, NovaReservaPage(usuario));
   }
 }

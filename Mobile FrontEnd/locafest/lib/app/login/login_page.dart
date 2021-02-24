@@ -1,8 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:locafest/app/home/home_page.dart';
-import 'package:locafest/app/utils/hex_color.dart';
-import 'package:locafest/app/utils/nav.dart';
+import 'package:locafest/app/login/login_service.dart';
+import 'package:locafest/app/shared/entities/usuario.dart';
+import 'package:locafest/app/shared/utils/alerts.dart';
+import 'package:locafest/app/shared/utils/hex_color.dart';
+import 'package:locafest/app/shared/utils/nav.dart';
+import 'package:locafest/app/usuario/cliente_cadastro_page.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -171,9 +175,28 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  _onClickEntrar() {
-    pushReplacement(context, HomePage());
+  _onClickEntrar() async {
+    final login = _tLogin.text;
+    final senha = _tSenha.text;
+
+    if (!_formKey.currentState.validate()) {
+      return;
+    }
+
+    final service = LoginService();
+    final response = await service.loginMock(login,  senha);
+
+    if (response.isOk()) {
+      print("foi");
+      Usuario user = response.getObjeto();
+      pushReplacement(context, HomePage(user));
+    } else {
+      alert(context, "Erro", response.msg);
+    }
+
   }
 
-  _onClickCadastrar(BuildContext context) {}
+  _onClickCadastrar(BuildContext context) {
+    push(context, UsuarioCadastroPage());
+  }
 }

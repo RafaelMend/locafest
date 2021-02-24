@@ -2,7 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:locafest/app/shared/components/drawer_component.dart';
 import 'package:locafest/app/shared/components/map_component.dart';
-import 'package:locafest/app/utils/hex_color.dart';
+import 'package:locafest/app/shared/entities/usuario.dart';
+import 'package:locafest/app/shared/utils/hex_color.dart';
 import 'package:datetime_picker_formfield/datetime_picker_formfield.dart';
 import 'package:intl/intl.dart';
 
@@ -10,10 +11,15 @@ import 'package:intl/intl.dart';
 class NovaReservaPage extends StatefulWidget {
   @override
   _NovaReservaPageState createState() => _NovaReservaPageState();
+
+  final Usuario usuario;
+  NovaReservaPage(this.usuario);
 }
 
 class _NovaReservaPageState extends State<NovaReservaPage> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  Usuario get usuario => widget.usuario;
 
   var exibirErros = false;
   final format = DateFormat("dd/MM/yyyy hh:MM:ss");
@@ -33,7 +39,7 @@ class _NovaReservaPageState extends State<NovaReservaPage> {
         backgroundColor: HexColor("#9C27B0"),
       ),
       body: _body(context),
-      drawer: DrawerComponent(),
+      drawer: DrawerComponent(usuario),
 
     );
   }

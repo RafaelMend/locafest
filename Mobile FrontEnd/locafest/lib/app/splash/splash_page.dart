@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:locafest/app/login/login_page.dart';
-import 'package:locafest/app/utils/hex_color.dart';
+import 'package:locafest/app/shared/utils/hex_color.dart';
 
 class Splash extends StatefulWidget {
   @override

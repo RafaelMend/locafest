@@ -37,6 +37,14 @@ dev_dependencies:
   flutter_map: any
   location: ^3.2.4
   datetime_picker_formfield: ^1.0.0
+  fluttertoast: ^7.1.8
+  uuid: ^2.2.2
+  dio: ^3.0.10
+  connectivity: ^2.0.2
+  http: ^0.12.2
+  bloc_pattern: ^2.5.1
+  rxdart: ^0.25.0
+
 # The following section is specific to Flutter.
 flutter:
 

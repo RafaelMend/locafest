@@ -1,18 +1,23 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:locafest/app/home/home_page.dart';
+import 'package:locafest/app/reserva/minhas_reservas_page.dart';
 import 'package:locafest/app/reserva/nova_reserva_page.dart';
-import 'package:locafest/app/utils/hex_color.dart';
-import 'package:locafest/app/utils/nav.dart';
+import 'package:locafest/app/shared/entities/usuario.dart';
+import 'package:locafest/app/shared/utils/hex_color.dart';
+import 'package:locafest/app/shared/utils/nav.dart';
 
 class DrawerComponent extends StatelessWidget {
+  final Usuario usuario;
+  DrawerComponent(this.usuario);
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(children: <Widget>[
         UserAccountsDrawerHeader(
-          accountName: Text("Nome"),
-          accountEmail: Text("Matricula"),
+          accountName: Text(usuario.cliente.nome),
+          accountEmail: Text(usuario.cliente.cpf),
           currentAccountPicture: FlutterLogo(),
         decoration: new BoxDecoration(
           color: HexColor("#9C27B0")
@@ -44,7 +49,7 @@ class DrawerComponent extends StatelessWidget {
         },
         title: Text("Nova Reserva"),
         leading: Icon(
-          Icons.star,
+          Icons.car_rental,
           color: Colors.black,
         ),
       ),
@@ -54,7 +59,7 @@ class DrawerComponent extends StatelessWidget {
         },
         title: Text("Minhas Reserva"),
         leading: Icon(
-          Icons.star,
+          Icons.receipt_long,
           color: Colors.black,
         ),
       ),
@@ -62,12 +67,14 @@ class DrawerComponent extends StatelessWidget {
   }
 
   _novaReserva(BuildContext context) {
-    push(context, NovaReservaPage());
+    push(context, NovaReservaPage(usuario));
   }
 
-  _minhasReserva(BuildContext context) {}
+  _minhasReserva(BuildContext context) {
+    push(context, MinhasReservasPage(usuario));
+  }
 
   _clickHome(BuildContext context) {
-    push(context, HomePage());
+    push(context, HomePage(usuario));
   }
 }
